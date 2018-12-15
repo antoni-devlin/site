@@ -1,33 +1,39 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
-  <head>
+
+<head>
     <meta charset="utf-8">
     <title> Home Page </title>
     <link rel="stylesheet" href="main.css">
-  </head>
-  <body>
+</head>
+
+<body>
     <nav>
-      <ul>
-        <li><a href="#">Home</a></li>
-        <li><a href="#">Link A</a></li>
-        <li><a href="#">Link B</a></li>
-        <li><a href="#">Link C</a></li>
-      </ul>
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Link A</a></li>
+            <li><a href="#">Link B</a></li>
+            <li><a href="#">Link C</a></li>
+        </ul>
     </nav>
-    <main>
-      <article class="left_col">
+    <div class="container">
+        <aside class="sidebar_left">
+        </aside>
+        <main class="main_col">
+            <article class="post">
+                <div class="post_image_heading">
+                    <img src="https://picsum.photos/960/540/?random" alt="A random cover image!">
+                    <div class="image-text">
+                                <h3><a href="#">A complete beginner's guide to Flask</a></h3>
+                    </div>
+                </div>
+                <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex <a href="#"> a link </a> ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. </p>
+            </article>
+        </main>
+        <aside class="sidebar_right">
+        </aside>
+    </div>
 
-      </article>
-    <article class="main_col">
-      <div class="">
-      <img src="https://picsum.photos/960/540/?random" alt="">
-      <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. </p>
-      </div>
-    </article>
-    <article class="right_col">
+</body>
 
-    </article>
-    </main>
-
-  </body>
 </html>
