@@ -9,7 +9,6 @@ body {
 }
 
 /* Menu Styling */
-
 a {
     text-decoration: none;
 }
@@ -38,15 +37,15 @@ nav>ul>li>a:hover {
     background-color: #111;
 }
 
-h1, h2, h3 > a {
+h1, h2, h3>a {
     color: black;
 }
 
-h1, h2, h3 > a:hover {
+h1, h2, h3>a:hover {
     color: rgb(244, 66, 75);
 }
 
-p > a {
+p>a {
     color: rgb(244, 66, 75);
 }
 
@@ -112,6 +111,12 @@ article>p:first-of-type::first-letter {
     text-transform: uppercase;
     line-height: 130%;
     max-width: 65%;
+}
+
+.post {
+    padding: 10px;
+    padding-bottom: 40px;
+    background-color: grey;
 }
 
 /* Image styling */
