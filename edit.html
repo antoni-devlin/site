@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+    <meta charset="utf-8">
+    <title> Home Page </title>
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="prism.css">
+    <script src="/js/jquery.tinymce.min.js"></script>
+    <script src="/js/tinymce.min.js"></script>
+    <script type="text/javascript">
+      tinymce.init({
+        selector: '#mytextarea'
+      });
+    </script>
+
+</head>
+
+<body>
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="#">Link A</a></li>
+            <li><a href="#">Link B</a></li>
+            <li><a href="#">Link C</a></li>
+        </ul>
+    </nav>
+    <div class="container">
+        <aside class="sidebar_left">
+        </aside>
+        <main class="main_col">
+          <form method="post">
+            <textarea id="mytextarea">Hello, World!</textarea>
+          </form>
+        </main>
+        <aside class="sidebar_right">
+        </aside>
+    </div>
+    <footer>
+        <div class="">
+
+        </div>
+    </footer>
+    <script type="text/javascript" src="prism.js"></script>
+
+    </script>
+</body>
+
+</html>

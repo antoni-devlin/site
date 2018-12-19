@@ -166,7 +166,7 @@ footer {
     background-color: rgb(255, 255, 255);
 }
 
-.post p:not(:first-of-type) {
+.post p {
     padding-top: 10px;
 }
 
@@ -202,5 +202,5 @@ footer {
 }
 
 #plyr-youtube {
-    
+
 }
