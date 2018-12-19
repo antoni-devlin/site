@@ -33,6 +33,7 @@ nav>ul>li>a {
     padding: 14px 16px;
     font-family: sans-serif;
     font-size: 14pt;
+    font-weight: lighter;
 }
 
 nav>ul>li>a:hover {
@@ -170,9 +171,9 @@ footer {
 }
 
 [class^="pullquote_"] {
-    width: 200px;
-    font-size: 18px;
-    line-height: 25px;
+    width: 300px;
+    font-size: 25px;
+    line-height: 30px;
     color: #655c9d;
     margin: 10px 0 10px 0;
     font-family: georgia;
@@ -186,10 +187,20 @@ footer {
 
 .pullquote_right {
     float: right;
-    margin-left: 15px;
+    margin-left: 25px;
+
 }
 
 .pullquote_left {
     float: left;
-    margin-right: 15px;
+    margin-right: 25px;
+}
+
+::selection {
+  background: rgba(244, 66, 75, 0.5);
+  color: white; /* WebKit/Blink Browsers */
+}
+
+#plyr-youtube {
+    
 }
